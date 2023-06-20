@@ -1,12 +1,9 @@
-
-import './App.css';
-import Register from './pages/Register';
+import "./App.css";
+import Register from "./pages/Register";
+import Home from "./pages/home";
 
 function App() {
-
-  return (
-    <Register />
-  );
+	return <Home />;
 }
 
 export default App;
