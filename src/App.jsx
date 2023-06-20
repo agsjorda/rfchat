@@ -1,13 +1,11 @@
 
 import './App.css';
-import Home from './pages/home';
+import Register from './pages/Register';
 
 function App() {
 
   return (
-    <div>
-      <Home />
-    </div>
+    <Register />
   );
 }
 
