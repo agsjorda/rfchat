@@ -6,7 +6,7 @@ const Navbar = () => {
 			<span className="font-bold text-[#0081a7] text-2xl">RF Chat</span>
 			<div className="flex gap-2">
 				<img
-					className="object-fit w-6 h-6 rounded-full"
+					className="object-cover w-6 h-6 rounded-full"
 					src={Cat}
 					alt="cat"
 				/>
