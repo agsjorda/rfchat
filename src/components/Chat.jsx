@@ -2,9 +2,9 @@ import Camera from "../assets/img/camera.png";
 import AddFriend from "../assets/img/add-friend.png";
 import More from "../assets/img/more.png";
 import Messages from "./Messages";
-import Input from "./Input";
 import { useContext } from "react";
 import { ChatContext } from "../context/ChatContext";
+import Input from "./Input";
 
 const Chat = () => {
 	const { data } = useContext(ChatContext);
