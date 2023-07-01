@@ -45,7 +45,7 @@ const Search = () => {
 	const handleSelect = async () => {
 		// check whether the group(chats in firestore) exists, if not create
 		const combineId =
-			currentUser.uid > user.id
+			currentUser.uid > user.uid
 				? currentUser.uid + user.uid
 				: user.uid + currentUser.uid;
 		try {
