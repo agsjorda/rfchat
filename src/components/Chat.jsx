@@ -4,7 +4,7 @@ import More from "../assets/img/more.png";
 import Messages from "./Messages";
 import { useContext } from "react";
 import { ChatContext } from "../context/ChatContext";
-import Input from "./Input";
+import MessageInput from "./MessageInput";
 
 const Chat = () => {
 	const { data } = useContext(ChatContext);
@@ -31,7 +31,7 @@ const Chat = () => {
 				</div>
 			</div>
 			<Messages />
-			<Input />
+			<MessageInput />
 		</div>
 	);
 };

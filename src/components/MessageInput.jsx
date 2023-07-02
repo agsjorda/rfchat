@@ -14,7 +14,7 @@ import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 
-const Input = () => {
+const MessageInput = () => {
 	const [text, setText] = useState("");
 	const [img, setImg] = useState(null);
 
@@ -113,4 +113,4 @@ const Input = () => {
 	);
 };
 
-export default Input;
+export default MessageInput;
