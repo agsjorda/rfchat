@@ -21,7 +21,7 @@ const Message = ({ message }) => {
 				message.senderId === currentUser.uid && "owner"
 			}`}
 		>
-			<div className="messageInfo">
+			<div className="message-info">
 				<img
 					src={
 						message.senderId === currentUser.uid
@@ -32,7 +32,7 @@ const Message = ({ message }) => {
 				/>
 				<span>Just now</span>
 			</div>
-			<div className="messageContent">
+			<div className="message-content">
 				<p>{message.text}</p>
 				{message.img && <img src={message.img} alt="" />}
 			</div>
